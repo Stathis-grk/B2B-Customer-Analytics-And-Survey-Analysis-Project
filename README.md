@@ -17,6 +17,15 @@ Dataset: 1,200 B2B survey responses across 9 industries and 7 countries with 14 
 The data science pipeline implemented in the Jupyter Notebook follows a structured approach:
 
 ### 1. Import Dataset/Libraries & Data Cleaning
+**Import Dataset & Libraries:**
+
+
+
+<img width="1446" height="761" alt="image" src="https://github.com/user-attachments/assets/0654f5de-834b-4dca-b206-80b183253ed3" />
+
+
+
+
 * **Duplicate Management:** Identification and removal of duplicate records to ensure data integrity.
 * **Text Normalization:** Column headers and string data (such as `country`, `industry`, and `free_text_response`) were stripped of leading/trailing whitespaces, and special characters (`-`) in company names were appropriately replaced.
 * **Missing Value Imputation:**
