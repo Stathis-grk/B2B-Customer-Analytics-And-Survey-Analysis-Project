@@ -89,7 +89,7 @@ The data science pipeline implemented in the Jupyter Notebook follows a structur
 
 
 
-#### There is a strong positive correlation between: 'satisfaction_score' and 'likelihood_to_buy' ~0.82, 'nps_score' and 'satisfaction_score' ~0.68, 'likelihood_to_buy' and 'nps_score' ~0.57 (less strong). Also the correlations ~0 are normal because there is no direct relationship between them.
+There is a strong positive correlation between: 'satisfaction_score' and 'likelihood_to_buy' ~0.82, 'nps_score' and 'satisfaction_score' ~0.68, 'likelihood_to_buy' and 'nps_score' ~0.57 (less strong). Also the correlations ~0 are normal because there is no direct relationship between them.
 
 #### These results proves to a great extent the validation of the dataset.
 
@@ -105,7 +105,7 @@ The data science pipeline implemented in the Jupyter Notebook follows a structur
 
 
 
-* A company having annual revenue higher than 1 trillion $ is not possible.
+A company having annual revenue higher than 1 trillion $ is not possible.
 
 
 
@@ -114,7 +114,15 @@ The data science pipeline implemented in the Jupyter Notebook follows a structur
 
 ### Barplot (free_text_response)
 <img width="942" height="736" alt="image" src="https://github.com/user-attachments/assets/0ef15f27-2e05-4a15-b362-2c3e5f790182" />
-* The majority of the text responses seems to be the 'Very satisfied with product quality' response (160+ counts). However, the second and third most popular answers indicated that the customers were complaining about the slow response time and that the price could be more flexible
+
+
+
+
+
+
+The majority of the text responses seems to be the 'Very satisfied with product quality' response (160+ counts). However, the second and third most popular answers indicated that the customers were complaining about the slow response time and that the price could be more flexible
+
+
 
 
 ### GROUPING "free_text_response" WITH "satisfaction_score" AND "likelihood_to_buy" COLUMNS
@@ -126,7 +134,7 @@ The data science pipeline implemented in the Jupyter Notebook follows a structur
 
 
 
-* Both satisfaction_score and likelihood_to_buy columns have similar rankings based on the free_text_response column. The paradox is that the text 'Great platform and responsive support' has lower satisfaction_score and likelihood_to_buy means. To conclude positive texts are not always compatible with high satisfaction scores
+Both satisfaction_score and likelihood_to_buy columns have similar rankings based on the free_text_response column. The paradox is that the text 'Great platform and responsive support' has lower satisfaction_score and likelihood_to_buy means. To conclude positive texts are not always compatible with high satisfaction scores
 
 
 
@@ -137,4 +145,4 @@ The data science pipeline implemented in the Jupyter Notebook follows a structur
 
 
 
-* The top 3 industries with the highest satisfactions score are: Manufacturing(6.7), Finance(6.5), Retail(6.5). Also the means of the satisfaction score are between 6-7 and generally above 6. However the industries with higher revenue are tend to have lower satisfaction score. We assume that the greater the revenue in an industry, the greater the industry's demands.
+The top 3 industries with the highest satisfactions score are: Manufacturing(6.7), Finance(6.5), Retail(6.5). Also the means of the satisfaction score are between 6-7 and generally above 6. However the industries with higher revenue are tend to have lower satisfaction score. We assume that the greater the revenue in an industry, the greater the industry's demands.
