@@ -215,4 +215,34 @@ Those results are reasonable because satisfaction_score and likelihood_to_buy ar
 
 
 
+## 4. Statistical Modeling
+### Regression Model Specification:
+
+
+
+
+
+<img width="642" height="487" alt="image" src="https://github.com/user-attachments/assets/d0b31c40-3059-48cb-a69b-204902a979f8" />
+
+
+
+
+
+
+
+<img width="652" height="553" alt="image" src="https://github.com/user-attachments/assets/52246f35-09e7-495b-ad93-5adc438fcd9f" />
+
+
+### Heteroskedasity Test 
+
+
+<img width="423" height="383" alt="image" src="https://github.com/user-attachments/assets/7ff31afe-de59-4219-a027-202c7bd4bb4c" />
+
+
+
+
+### Model Results 
+The OLS regression model demonstrates strong performance with an R-squared of 0.748, with likelihood to buy (β = 1.24, p < 0.001) and NPS score (β = 0.61, p < 0.001) as the primary predictors of satisfaction. The Breusch-Pagan test (p = 0.927) confirms the absence of heteroscedasticity, and diagnostic tests reveal no autocorrelation or multicollinearity issues. While the Jarque-Bera test flags non-normality in residuals, this is expected with large sample sizes (N = 1,199), where minor deviations become statistically detectable without affecting model reliability. Also the assumption that the industries with higher revenue are tend to have lower satisfaction score is not proven by our model BUT manufacturing industry showed a modest but significant positive effect (the customers in this field shows 0.078 bigger satisfaction).
+
+
 
