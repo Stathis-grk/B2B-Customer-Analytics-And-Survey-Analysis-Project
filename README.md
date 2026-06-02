@@ -12,11 +12,11 @@ This project demonstrates a complete data analytics pipeline from raw data to ac
 
 Dataset: 1,200 B2B survey responses across 9 industries and 7 countries with 14 features
 
-## Data Pipeline & Methodology (Python Workflow)
+# Data Pipeline & Methodology (Python Workflow)
 
 The data science pipeline implemented in the Jupyter Notebook follows a structured approach:
 
-### 1. Import Dataset/Libraries & Data Cleaning
+## 1. Import Dataset/Libraries & Data Cleaning
 **Import Dataset & Libraries:**
 
 
@@ -68,7 +68,7 @@ The data science pipeline implemented in the Jupyter Notebook follows a structur
 
 
 
-### 2. Exploratory Data Analysis (EDA)
+## 2. Exploratory Data Analysis (EDA)
 * Extracted descriptive statistics (mean, standard deviation, minimum, maximum values) across a robust sample size of ~1,200 B2B respondents.
 
 
@@ -82,15 +82,31 @@ The data science pipeline implemented in the Jupyter Notebook follows a structur
 
 
   
-* Correlation Matrix
+### Correlation Matrix
 
 
-<img width="1021" height="688" alt="image" src="https://github.com/user-attachments/assets/c37a392e-594c-411a-be09-8a123940398f" />
+<img width="755" height="691" alt="image" src="https://github.com/user-attachments/assets/27d3424a-ce6b-4d83-bb61-aed0c0709da0" />
+
+
+
+#### There is a strong positive correlation between: 'satisfaction_score' and 'likelihood_to_buy' ~0.82, 'nps_score' and 'satisfaction_score' ~0.68, 'likelihood_to_buy' and 'nps_score' ~0.57 (less strong). Also the correlations ~0 are normal because there is no direct relationship between them.
+
+#### These results proves to a great extent the validation of the dataset.
 
 
 
 
-* Boxplot + Removing the Outliers
 
-<img width="1017" height="721" alt="image" src="https://github.com/user-attachments/assets/350eb282-eb0a-4bfd-a69b-4b1d0e54e381" />
+### Boxplot + Removing the Outliers
 
+<img width="1027" height="605" alt="image" src="https://github.com/user-attachments/assets/1fefc3a0-862f-4900-8780-a450ead7ad84" />
+
+
+
+
+
+<img width="600" height="122" alt="image" src="https://github.com/user-attachments/assets/23a38b6c-f078-410e-af73-489e34df7da8" />
+
+
+
+* A company having annual revenue higher than 1 trillion $ is not possible.
