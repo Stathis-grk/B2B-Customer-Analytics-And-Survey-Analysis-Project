@@ -68,3 +68,29 @@ The data science pipeline implemented in the Jupyter Notebook follows a structur
 
 
 
+### 2. Exploratory Data Analysis (EDA)
+* Extracted descriptive statistics (mean, standard deviation, minimum, maximum values) across a robust sample size of ~1,200 B2B respondents.
+
+
+
+
+
+<img width="1051" height="747" alt="image" src="https://github.com/user-attachments/assets/eaab2eaf-9005-4568-b757-222e4e09f20b" />
+
+
+
+
+
+  
+* Correlation Matrix
+
+
+<img width="1021" height="688" alt="image" src="https://github.com/user-attachments/assets/c37a392e-594c-411a-be09-8a123940398f" />
+
+
+
+
+* Boxplot + Removing the Outliers
+
+<img width="1017" height="721" alt="image" src="https://github.com/user-attachments/assets/350eb282-eb0a-4bfd-a69b-4b1d0e54e381" />
+
