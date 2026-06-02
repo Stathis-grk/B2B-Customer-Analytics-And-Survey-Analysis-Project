@@ -91,7 +91,7 @@ The data science pipeline implemented in the Jupyter Notebook follows a structur
 
 There is a strong positive correlation between: 'satisfaction_score' and 'likelihood_to_buy' ~0.82, 'nps_score' and 'satisfaction_score' ~0.68, 'likelihood_to_buy' and 'nps_score' ~0.57 (less strong). Also the correlations ~0 are normal because there is no direct relationship between them.
 
-#### These results proves to a great extent the validation of the dataset.
+These results proves to a great extent the validation of the dataset.
 
 
 
@@ -105,11 +105,15 @@ There is a strong positive correlation between: 'satisfaction_score' and 'likeli
 
 
 
+<img width="600" height="122" alt="image" src="https://github.com/user-attachments/assets/23a38b6c-f078-410e-af73-489e34df7da8" />
+
+
+
+
 A company having annual revenue higher than 1 trillion $ is not possible.
 
 
 
-<img width="600" height="122" alt="image" src="https://github.com/user-attachments/assets/23a38b6c-f078-410e-af73-489e34df7da8" />
 
 
 ### Barplot (free_text_response)
@@ -146,3 +150,69 @@ Both satisfaction_score and likelihood_to_buy columns have similar rankings base
 
 
 The top 3 industries with the highest satisfactions score are: Manufacturing(6.7), Finance(6.5), Retail(6.5). Also the means of the satisfaction score are between 6-7 and generally above 6. However the industries with higher revenue are tend to have lower satisfaction score. We assume that the greater the revenue in an industry, the greater the industry's demands.
+
+
+
+
+## 3. Data Quality Assessment
+### Suspicious Responce Detection
+
+
+
+
+
+<img width="657" height="356" alt="image" src="https://github.com/user-attachments/assets/b9180762-29b9-4c24-866e-87e2bd519ac7" />
+
+
+
+
+
+5% (60) of the responses are unusually quick. This may indicate to unreliable answers
+
+
+### Same Answers in Multiple Different Columns
+
+
+
+
+
+<img width="807" height="292" alt="image" src="https://github.com/user-attachments/assets/8a2cb0ea-ea2c-4c89-856e-3fddbc9bc164" />
+
+
+
+
+
+5.3% (64) of the companies have given the same answers to multiple columns. This may be due to an automation tool.
+
+
+
+### Detection Of Incosistent Responses
+
+
+
+<img width="525" height="201" alt="image" src="https://github.com/user-attachments/assets/345caaf1-d371-408f-b05c-eadb26a3bf62" />
+
+
+
+
+
+* 2 rows are having a marginal incosistent responses between satisfaction score and likelihood to buy
+* 0 rows are having a marginal incosistent responses between satisfaction score and nps_score
+* 48 rows are having a marginal incosistent responses between satisfaction score and likelihood to buy
+
+Those results are reasonable because satisfaction_score and likelihood_to_buy are less strongly correlative.
+
+
+
+
+### Completion Rate Insight
+
+
+
+
+<img width="468" height="113" alt="image" src="https://github.com/user-attachments/assets/92de0745-378d-4dfb-b3f9-0f2ce6bdf832" />
+
+
+
+
+
