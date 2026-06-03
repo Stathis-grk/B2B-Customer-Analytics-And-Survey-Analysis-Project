@@ -12,9 +12,7 @@ This project demonstrates a complete data analytics pipeline from raw data to ac
 
 Dataset: 1,200 B2B survey responses across 9 industries and 7 countries with 14 features
 
-# Data Pipeline & Methodology (Python Workflow)
-
-The data science pipeline implemented in the Jupyter Notebook follows a structured approach:
+# Python Workflow
 
 ## 1. Import Dataset/Libraries & Data Cleaning
 **Import Dataset & Libraries:**
