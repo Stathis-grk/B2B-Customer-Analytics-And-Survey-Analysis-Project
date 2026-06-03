@@ -1,5 +1,5 @@
 # B2B-Customer-Analytics-And-Survey-Analysis-Project
-A comprehensive data science end-to-end project analyzing B2B customer satisfaction, NPS scores, and purchase likelihood through data cleaning, exploratory analysis, and statistical modeling.
+A comprehensive data analysis end-to-end project analyzing B2B customer satisfaction, NPS scores, and purchase likelihood through data cleaning, exploratory analysis, and statistical modeling.
 
 ## Overview
 This project demonstrates a complete data analytics pipeline from raw data to actionable insights:
