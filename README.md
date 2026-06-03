@@ -247,6 +247,8 @@ The OLS regression model demonstrates strong performance with an R-squared of 0.
 
 
 # Excel Features & Analysis
+Before feeding the dataset into Power BI, the cleaned data was structured within a macro-enabled Excel workbook to facilitate immediate, interactive data auditing and ad-hoc investigations.
+
 ## The Final Cleaned Dataset
 
 
@@ -299,3 +301,46 @@ The Excel file includes a custom-built search bar with:
 
 Designed a master **Pivot Table** to instantly summarize, cross-examine, and slice categorical metrics (such as industries and company sizes) against numeric performance KPIs like Net Promoter Score (NPS) and Average Satisfaction.
 Serves as the operational intermediary link, validating data summaries before final publication to the BI environment.
+
+
+
+# Power BI Dashboard
+The interactive Power BI dashboard transforms the processed and Excel-validated data into dynamic executive reports to assist Customer Success, Product Management, and Executive teams in strategic decision-making.
+
+## B2B Summary Dashboard 
+
+
+
+
+
+
+
+<img width="1302" height="732" alt="image" src="https://github.com/user-attachments/assets/c693c97d-d4d2-4792-84ed-098222c3cda2" />
+
+
+
+
+
+
+## B2B Financial Dashboard
+
+
+
+
+
+
+
+<img width="1306" height="733" alt="image" src="https://github.com/user-attachments/assets/48de6ef1-8efa-49d1-844b-43a6ed3b09f2" />
+
+
+
+
+
+
+
+
+### Key Visualizations & Features:
+* **Executive KPI Cards:** Instant visibility into vital health metrics: Average Satisfaction Score, NPS Score, Average Completion Rate, and Likelihood to Buy.
+* **Geographic & Industry Segmentation:** Multi-level filtering options to slice data across international markets (USA, UK, Netherlands, Greece, France, Spain, Germany) and specific B2B verticals (Healthcare, Finance, Technology, Manufacturing, etc.).
+* **Firmographic Analysis:** Segmentation of satisfaction indicators by company sizes (e.g., 1-50, 51-200, 201-500, 501-1,000, 1,000+ employees).
+* **Qualitative Text Tracking:** Compilation of text-based customer feedback (e.g., pricing model flexibility, customer support responsiveness) mapped alongside quantitative scores for granular qualitative analysis.
