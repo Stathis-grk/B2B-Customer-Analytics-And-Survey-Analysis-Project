@@ -246,3 +246,56 @@ The OLS regression model demonstrates strong performance with an R-squared of 0.
 
 
 
+# Excel Features & Analysis
+## The Fianl Dataset Cleaned Dataset
+
+
+
+
+
+<img width="971" height="430" alt="image" src="https://github.com/user-attachments/assets/5b9b9fb6-752f-4dee-b262-cd4dc3df27ca" />
+
+
+
+
+
+
+
+## Dynamic Search Bar & Data Querying 
+
+
+
+
+
+<img width="673" height="428" alt="image" src="https://github.com/user-attachments/assets/26de3682-b92c-4a62-b570-7ff9c062fc02" />
+
+
+
+
+
+
+The Excel file includes a custom-built search bar with:
+
+** ActiveX Controls for user interface
+** Dynamic filtering without external tools
+** Real-time results based on user input
+** ID columns search support
+
+
+
+
+
+## Aggregated Pivot Tables
+
+
+
+
+
+<img width="832" height="272" alt="image" src="https://github.com/user-attachments/assets/090c5441-46fe-492e-91db-9a617bf316d5" />
+
+
+
+
+
+Designed a master **Pivot Table** to instantly summarize, cross-examine, and slice categorical metrics (such as industries and company sizes) against numeric performance KPIs like Net Promoter Score (NPS) and Average Satisfaction.
+Serves as the operational intermediary link, validating data summaries before final publication to the BI environment.
