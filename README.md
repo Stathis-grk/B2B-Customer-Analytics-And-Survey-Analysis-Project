@@ -344,3 +344,7 @@ The interactive Power BI dashboard transforms the processed and Excel-validated 
 * **Geographic & Industry Segmentation:** Multi-level filtering options to slice data across international markets (USA, UK, Netherlands, Greece, France, Spain, Germany) and specific B2B verticals (Healthcare, Finance, Technology, Manufacturing, etc.).
 * **Firmographic Analysis:** Segmentation of satisfaction indicators by company sizes (e.g., 1-50, 51-200, 201-500, 501-1,000, 1,000+ employees).
 * **Qualitative Text Tracking:** Compilation of text-based customer feedback (e.g., pricing model flexibility, customer support responsiveness) mapped alongside quantitative scores for granular qualitative analysis.
+
+
+## License 
+This project is licensed under the MIT License
