@@ -247,7 +247,7 @@ The OLS regression model demonstrates strong performance with an R-squared of 0.
 
 
 # Excel Features & Analysis
-## The Fianl Dataset Cleaned Dataset
+## The Final Cleaned Dataset
 
 
 
@@ -276,10 +276,10 @@ The OLS regression model demonstrates strong performance with an R-squared of 0.
 
 The Excel file includes a custom-built search bar with:
 
-** ActiveX Controls for user interface
-** Dynamic filtering without external tools
-** Real-time results based on user input
-** ID columns search support
+1) ActiveX Controls for user interface
+2) Dynamic filtering without external tools
+3) Real-time results based on user input
+4) ID column search support
 
 
 
