@@ -196,7 +196,7 @@ The top 3 industries with the highest satisfactions score are: Manufacturing(6.7
 
 * 2 rows are having a marginal incosistent responses between satisfaction score and likelihood to buy
 * 0 rows are having a marginal incosistent responses between satisfaction score and nps_score
-* 48 rows are having a marginal incosistent responses between satisfaction score and likelihood to buy
+* 48 rows are having a marginal incosistent responses between nps score and likelihood to buy
 
 Those results are reasonable because satisfaction_score and likelihood_to_buy are less strongly correlative.
 
