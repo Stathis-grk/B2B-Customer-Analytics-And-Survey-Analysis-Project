@@ -108,7 +108,7 @@ These results proves to a great extent the validation of the dataset.
 
 
 
-A company having annual revenue higher than 1 trillion $ is not possible.
+Revenue values above the 99.5th percentile were flagged as potential outliers and reviewed.
 
 
 
