@@ -291,7 +291,9 @@ The Excel file includes a custom-built search bar with:
 
 
 
-<img width="832" height="272" alt="image" src="https://github.com/user-attachments/assets/090c5441-46fe-492e-91db-9a617bf316d5" />
+<img width="581" height="272" alt="image" src="https://github.com/user-attachments/assets/13f098c3-71fd-49b3-ac38-7de2023d41a4" />
+
+
 
 
 
